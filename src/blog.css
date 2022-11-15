@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.7rem;
+}
+
+.header {
+	background-color: #2233ff;
+	height: 50px;
+	text-align: center;
+	padding-top: 5px;
+	color: #dddddd;
+}
+.btn {
+	background-color: #811ac1;
+	color: #eeeee8;
+	font-size: 15px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px px #a020f0;
+	float: right;
+	margin: 5px;
+	padding: 5px;
+}
+.displaytitle {
+	margin-top: 40px;
+	background-color: #999999;
+	height: 400px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 400px;
+	width: 800px;
+}
+.title {
+	background-color: #2233ff;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+.post {
+	background-color: #666666;
+	padding: 20px;
+	border-radius: 20px;
+	margin-left: 900px;
+}
+.post1 {
+	height: 400px;
+	width: 400px;
+
+	display: flex;
+	justify-content: center;
+}
+#title {
+	width: 40vw;
+	height: 8vh;
+	background-color: #000000;
+	font-size: 20px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: #ffffff;
+	text-align: center;
+}
+#article {
+	width: 40vw;
+	height: 30vh;
+	background-color: #000000;
+	font-size: 20px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-top: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+.article {
+	color: #dddddd;
+	padding: 10px;
+}
